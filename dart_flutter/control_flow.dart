@@ -26,3 +26,8 @@ void main() {
     print('Your number is equal to 10');
   }
 }
+
+/* We use stdin.readLineSync() to read the user input from the console.
+We parse the input string to an integer using int.tryParse(input) to handle potential errors if the input cannot be parsed as an integer.
+We then check the value of the number using if, else if, and else statements and print the appropriate message based on the given criteria.
+*/
