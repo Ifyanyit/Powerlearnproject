@@ -1,0 +1,20 @@
+/* CSS for styling the page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+header,
+nav,
+section,
+footer {
+  margin-bottom: 20px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
