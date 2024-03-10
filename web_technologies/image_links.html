@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Links</title>
+    <link rel="stylesheet" href="image_link.css" />
+    <!-- 
+        <style>
+      /* CSS for styling the page */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      header,
+      nav,
+      section,
+      footer {
+        margin-bottom: 20px;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+      }
+    </style> 
+-->
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Image Links</h1>
+      <p>Explore our collection of images!</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#menu">Menu</a></li>
+      </ul>
+    </nav>
+
+    <section id="home">
+      <h2>Home</h2>
+      <p>Welcome to our home page! Below is an image related to technology:</p>
+      <a href="https://example.com/technology" target="_blank"
+        ><img src="images/techImage.jpeg" alt="Technology"
+      /></a>
+    </section>
+
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <p>Check out our gallery of nature images:</p>
+      <div class="grid-container">
+        <a href="https://example.com/nature1" target="_blank"
+          ><img src="images/natureImage.jpeg" alt="Nature 1"
+        /></a>
+        <a href="https://example.com/nature2" target="_blank"
+          ><img src="images/nature2.jpeg" alt="Nature 2"
+        /></a>
+        <a href="https://example.com/nature3" target="_blank"
+          ><img src="images/nature3.jpeg" alt="Nature 3"
+        /></a>
+      </div>
+    </section>
+
+    <section id="menu">
+      <h2>Menu</h2>
+      <p>Here's our menu with linked images:</p>
+      <ul>
+        <li>
+          <a href="https://example.com/food1" target="_blank"
+            ><img src="images/food1.jpeg" alt="Food 1"
+          /></a>
+          - Food Item 1
+        </li>
+        <li>
+          <a href="https://example.com/food2" target="_blank"
+            ><img src="images/food2.jpeg" alt="Food 2"
+          /></a>
+          - Food Item 2
+        </li>
+        <li>
+          <a href="https://example.com/food3" target="_blank"
+            ><img src="images/food3.jpeg" alt="Food 3"
+          /></a>
+          - Food Item 3
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Image Links</p>
+    </footer>
+  </body>
+</html>
